@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;    
+}
+
+h1{
+    margin-top: 1.2cm;
+    text-transform: uppercase;
+}
+
+img{
+    width: 8cm;
+    height:8cm;
+}
+
+.img1{
+    /* filter: drop-shadow(0.25rem 0.30rem 0.40rem rgba(0, 0, 0, 0.5)); */
+    filter: drop-shadow(0.001cm 0.001cm 0.1cm  rgb(0, 0, 0));
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+}
